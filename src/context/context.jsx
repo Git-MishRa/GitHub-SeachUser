@@ -61,7 +61,7 @@ const GithubProvider = ({ children }) => {
         })
         .catch((err) => console.log(err));
     } else {
-      toggleError(true, "No Such User Found");
+      toggleError(true, "No such Bitch");
     }
     checkRequests();
     setIsLoading(false);
